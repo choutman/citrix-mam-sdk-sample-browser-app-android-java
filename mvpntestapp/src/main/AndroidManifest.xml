@@ -24,23 +24,28 @@
 
         <activity
             android:name=".activities.SelectConnectionActivity"
-            android:label="@string/start_tunnel_title" />
+            android:label="@string/start_tunnel_title"
+            android:exported="true"/>
 
         <activity
             android:name=".activities.StartTunnelAndSendNetworkRequestActivity"
-            android:label="@string/webview_title" />
+            android:label="@string/webview_title"
+            android:exported="true" />
 
         <activity
             android:name=".activities.WebViewActivity"
-            android:label="@string/webview_title" />
+            android:label="@string/webview_title"
+            android:exported="true" />
 
         <activity
             android:name=".activities.OkHttpActivity"
-            android:label="@string/okhttp_title" />
+            android:label="@string/okhttp_title"
+            android:exported="true" />
 
         <activity
             android:name=".activities.UrlConnectionActivity"
-            android:label="@string/url_connection_title" />
+            android:label="@string/url_connection_title"
+            android:exported="true" />
 
         <uses-library
             android:name="org.apache.http.legacy"
